@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>firefox-ios</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://jce-il.github.io/ASOSMA/css/main.css">
+    <link rel="icon" href="http://jce-il.github.io/ASOSMA/jce-favicon.ico" type="image/x-icon"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43050911-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+
+
+<body>
+  <div class="container">
+  <div class="sidebar">
+    <div class="cover">
+      <a href="http://jce-il.github.io/ASOSMA/index.html">
+        <img src="http://jce-il.github.io/ASOSMA/css/jce.jpeg">
+        <h3>Azrieli Students On Software Modeling and Architecture</h3>
+      </a>
+      <ol>
+      
+      
+        
+      
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/BeEF/">BeEF</a></li>
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/OptiKey/">OptiKey</a></li>
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/Video.js/">Video.js</a></li>
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/firefox-ios/">firefox-ios</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+      </ol>
+    </div>
+  </div>
+  <div class="content">
+
+  <h2 id="firefox-ios---class-project">firefox-ios - Class Project</h2>
+
+<p>Stage 0:</p>
+
+<ol>
+  <li>Project name:
+    <ul>
+      <li>firefox-ios - firefox browser for ios</li>
+      <li><a href="https://github.com/mozilla/firefox-ios">firefox-ios Repository</a></li>
+    </ul>
+  </li>
+  <li>Team members:
+    <ul>
+      <li><a href="https://github.com/rawisa">Rawi Sakhnini</a></li>
+      <li><a href="https://github.com/marianera">Marian Raad</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Firefox iOS is a browser from Mozilla for the Apple iPhone, iPad and iPod touch mobile devices.
+It is the first Firefox brand browser to not use the Gecko layout engine that is commonly used in Firefox for desktop and mobile devices that are not iOS based. Due to Apple’s application review policies, Firefox had to use the built-in iOS WebKit-based rendering framework instead of its own Gecko.
+Firefox iOS supports Firefox Sync which makes it able to sync Firefox’s browsing history, bookmarks, and recent tabs.</p>
+
+<h2 id="architecture">Architecture</h2>
+
+<p><strong>General browser architecture:</strong></p>
+
+<p><img src="general.jpg" alt="" /></p>
+
+<p><a href="http://image.slidesharecdn.com/web-browserarchitecture-150609231155-lva1-app6892/95/web-browser-architecture-2-638.jpg?cb=1433891674">Reference</a></p>
+
+<p><strong>Firefox’s</strong> architecture can be presented as seen in the following bottom figure, however, as mentioned before, because of Apple’s policies they had to use the built-in iOS WebKit instead of Gecko.</p>
+
+<p><img src="firefox-diagram.jpg" alt="" /></p>
+
+<p><a href="http://www.shinylight.com/wp-content/uploads/2009/09/11.jpg">Reference</a></p>
+
+<h2 id="resources">Resources</h2>
+
+<p>Firefox is an open-source browser which means that users around the world are able to help improve it.
+Contributers can communicate through: 
+* IRC:            <a href="https://wiki.mozilla.org/IRC">#mobile</a> for general discussion and <a href="https://wiki.mozilla.org/IRC">#mobistatus</a> for team status updates.
+* Mailing list:   <a href="https://mail.mozilla.org/listinfo/mobile-firefox-dev">mobile-firefox-dev@mozilla.org</a>.</p>
+
+<p>They can find the list of bugs that need to be fixed at the following URL links:</p>
+
+<ul>
+  <li>
+    <p>Bugs:           <a href="https://bugzilla.mozilla.org/enter_bug.cgi?bug_file_loc=http%3A%2F%2F&amp;bug_ignored=0&amp;op_sys=iOS%20&amp;product=Firefox%20for%20iOS&amp;rep_platform=All">File a new bug</a> • <a href="https://bugzilla.mozilla.org/describecomponents.cgi?product=Firefox%20for%20iOS">Existing bugs</a></p>
+  </li>
+  <li>
+    <p>Another AOSA project: http://aosabook.org/en/ffreleng.html</p>
+  </li>
+</ul>
+
+<h1 id="statistics">Statistics</h1>
+
+<p><strong>The weekly commits graph:</strong>
+<img src="commit-cont.png" alt="" />
+<a href="https://github.com/mozilla/firefox-ios/graphs/commit-activity">Reference</a></p>
+
+<p><strong>Notice the high frequency change in the code change by observing the following graph:</strong>
+<img src="code-freq-statics.png" alt="" />
+<a href="https://github.com/mozilla/firefox-ios/graphs/code-frequency">Reference</a></p>
+
+<p>By looking at the following release frequency, one can understand that firefox uses the agile developing method.
+Also according to <a href="http://www.itbusinessedge.com/cm/blogs/all/mozilla-takes-hybrid-approach-to-agile-software-development/?cs=38988">itbusinessedge</a>:
+“Mozilla has also begun using a hybrid model that incorporates elements of both agile and waterfall approaches for its flagship Firefox Web browser. The goal is to more quickly introduce new features – aided by agile’s emphasis on iterative releases – while maintaining backward compatibility, security and overall code quality.”.
+<img src="release-statics.png" alt="" /></p>
+
+<p><a href="https://github.com/mozilla/firefox-ios/releases">Reference</a></p>
+
+<p>Firefox keeps its bugs/features list in their <a href="https://github.com/mozilla/firefox-ios/issues">issues</a> in github:
+<img src="issues.png" alt="" />
+<a href="https://github.com/mozilla/firefox-ios/issues">Reference</a></p>
+
+<h2 id="contributor-guidelines">Contributor guidelines</h2>
+
+<p>Using Firefox’s official site <a href="https://bugzilla.mozilla.org/">Bugzilla</a>, developers can find a list of bugs in the firefox code.
+All developers must follow the following Swift style to keep the code organized: https://github.com/raywenderlich/swift-style-guide.</p>
+
+<p>Adding small * Exceptions like: they use 4-space indentation instead of 2.</p>
+
+<p>Further information can be found at <a href="https://github.com/mozilla/firefox-ios#contributor-guidelines">Firefox-ios contributor guidelines</a></p>
+
+<h2 id="general-source-code-structure">General source code structure</h2>
+
+<p>Firefox separates the code to packages to keep everything organised to help developers add/fix features with ease.
+The following figure shows the code structure, we can see that there are packages for : Account, Client, Extensions, etc… 
+For most packages there is a corresponding package for tests:  AccountTest, ClientTest, etc… . That way if firefox-developers or external-contributors make changes to the code, they wouldn’t break the browser’s functionality.
+General detailed code structure can be found at (note: this code structure are for windows, but its the same for all platforms in general):
+* https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Directory_structure
+* http://codefirefox.com/video/source-structure</p>
+
+<p><img src="code structor.png" alt="" /></p>
+
+<p><a href="https://github.com/mozilla/firefox-ios">Reference</a></p>
+
+<h2 id="stakeholder-view">Stakeholder view</h2>
+<ul>
+  <li><strong>Communicators</strong>:</li>
+</ul>
+
+<p>are the people that provide documentation of the system for the users and administrators.
+ Furthermore they may provide training for staff or the development team.
+ Communicators often promote the product by sharing the product’s key features and benefits to other stakeholders.</p>
+
+<p>Firefox is a global webBrowser, They have a “Mobilizers” community. Mobilizers are tech/geek enthusiasts that are committed to spreading Firefox OS and other new Mozilla mobile products. Mobilizers receive periodic missions asking them to do a simple action to teach others about the new Firefox OS. Mobilizers will also attend, assist or host events in their market about once a month <a href="https://wiki.mozilla.org/FirefoxOS/Community/Mobilizers">Reference</a>.</p>
+
+<ul>
+  <li><strong>Developers</strong>:</li>
+</ul>
+
+<p>are responsible for the implementation and deployment of the systems’ specification.
+ That is: design, code, test and accept.
+ Their concerns lie with the platform that is being used, programming languages for writing code, tools used, dependencies needed, as well as the maintainability and flexibility of the system.</p>
+
+<p>The most active and notable developers at this moment are: Stefan Arentz, Brian Nicholson, Stephan Leroux and Richard Newman. These developers create pull requests with new features or fixes (Stefan Arentz only fixes bugs). It is important to note that these are not the only developers working on the firefox project. The relevant core team can be found at <a href="https://wiki.mozilla.org/Firefox/Team/whois">Firefox-team</a>.</p>
+
+<ul>
+  <li><strong>Testers</strong>:</li>
+</ul>
+
+<p>are the ones that test the system to ensure that it works exactly the way it is intended to work.</p>
+
+<p><a href="https://github.com/sleroux">Stephan Leroux</a> and <a href="https://github.com/thebnich">Brian Nicholson</a> contribute the most to the tests, code tests, UI tests, etc…</p>
+
+<ul>
+  <li><strong>Funders</strong>:</li>
+</ul>
+
+<p>Funders give money to the project to keep it alive.</p>
+
+<p>One of the best money income for firefox is using the search engines such as Google. Google funds firefox by paying it to make Google search engine as the default search engine for firefox.</p>
+
+<ul>
+  <li><strong>Users</strong>:</li>
+</ul>
+
+<p>define the system’s functionality and use it once it has been deployed.</p>
+
+<p>Users use the browser to surf the internet, they expect it to be fast, and wait for new updates for bug fixes or new features to fully enjoy surfing the internet.</p>
+
+<ul>
+  <li><strong>Development team</strong>:</li>
+  <li>Product Manager: Jen Bertsch</li>
+  <li>Project Manager: Mike Alexis</li>
+  <li>Content owner: Greg Jost</li>
+  <li>Copy: Natalie Linden</li>
+  <li>UX and Design: ZURB</li>
+  <li>Creative lead: Tim Murray</li>
+  <li>Foundation stakeholder: Andrea Wood</li>
+  <li>Advocacy stakeholder: Jochai Ben-Avie</li>
+  <li>Legal: Mika Devi</li>
+  <li>Web development: Craig Cook</li>
+  <li>Analytics: Gareth C</li>
+  <li>L10N: Flod, Pascal Chevrel</li>
+</ul>
+
+<p><a href="https://wiki.mozilla.org/Websites/Mozilla.org/Smart_On">Reference</a></p>
+
+<p>## UML - Sequence diagram</p>
+
+<p>The following sequence diagram shows the important part of any webBrowser’s functionality and the processes it should execute to achieve its goal. It also shows how the MVC works in firefox:</p>
+
+<p><img src="firefox-sequence.png" alt="" /></p>
+
+<p><a href="http://blog.quent.in/assets/wp-content/uploads/2012/04/index.png">Reference</a></p>
+
+<h2 id="missing-important-feature">Missing important feature</h2>
+
+<p>According to <a href="https://bugzilla.mozilla.org">bugzilla</a>, Firefox is missing an important feature which is filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089. The feature is: “Detect if the user has a URL in their clipboard when re-entering the app”, The browser currently checks if there is a copied URL only when the app opens for the first time and not when the app goes to the background which means that the user must copy the URL -&gt; and enter the browser again.</p>
+
+<p>It is recommended for the new contributors to add that feature.</p>
+
+<p>Following the <a href="https://github.com/raywenderlich/swift-style-guide">Swift style</a> which was recommended by firefox. We added the new feature, and created a pull request and attached it on their bugzilla site according to the <a href="https://github.com/mozilla/firefox-ios#contributor-guidelines">guidelines</a></p>
+
+<ul>
+  <li><a href="https://github.com/rawisa/firefox-ios">Forked repo.</a></li>
+  <li><a href="https://github.com/mozilla/firefox-ios/pull/1889">PR</a> For the missing feature.</li>
+</ul>
+
+<h2 id="metrics-variability-and-quality-measures">Metrics, Variability and Quality Measures</h2>
+<ul>
+  <li><strong>circleci</strong>:</li>
+</ul>
+
+<p align="center">
+<img src="circleci.png" />
+</p>
+
+<p>Firefox uses circleci for continuous integration. CircleCI’s continuous integration and delivery platform helps software teams rapidly release code with confidence by automating the build, test, and deploy process. CircleCI offers a modern software development platform that lets teams ramp quickly, scale easily, and build confidently every day.
+  Over 100,000 companies use circleci, such as: Facebook, Kickstarter, Spotify, GoPro, etc…</p>
+
+<p><img src="companies.png" alt="" /></p>
+
+<p>CircleCI can be easily installed, runs tests and automatically have each successful build on the master be pushed to any deployment host.</p>
+
+<p>For the PR we made it took CircleCI about 10 minutes to run all the tests by mainly running the following command which executes all the tests in the project:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>**“set -o pipefail &amp;&amp; xcodebuild CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= ONLY_ACTIVE_ARCH=NO VALID_ARCHS=”i386 x86_64” -destination ‘platform=iOS Simulator,name=iPhone 4s,OS=9.3’ -sdk iphonesimulator -project ‘Client.xcodeproj’ -scheme “FennecCI” clean build test</td>
+      <td>tee $CIRCLE_ARTIFACTS/xcode_raw.log”**</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>It ran 263 tests in XCode with 0 failures. When the tests finished, it showed a green arrow on the PR to verify that our build passed all tests:</p>
+
+<p><img src="our-pr.png" alt="" /></p>
+
+<ul>
+  <li><strong>codebeat</strong>:</li>
+</ul>
+<p align="center">
+<img src="codebeatlogo.png" />
+</p>
+
+<p>Codebeat gives instant feedback on the code. It is an automated code review for Swift, Ruby, Go, etc…</p>
+
+<p>Codebeat gathers the results of the code analysis into a single, real-time report that gives all project stakeholders the information required to improve their code’s quality.</p>
+
+<p>Firefox has a <em>3.02 GPA</em>, <em>B</em> grade according to Codebeat <a href="https://codebeat.co/projects/github-com-mozilla-firefox-ios"><img src="https://codebeat.co/badges/67e58b6d-bc89-4f22-ba8f-7668a9c15c5a" alt="codebeat badge" /></a></p>
+
+<p>Codebeat report comes with a number that can range from 0 (worst) to 4 (best). Codebeat explains how it <a href="https://hub.codebeat.co/docs/gpa-explained#calculating-gpas">calculates the GPAs</a>.</p>
+
+<p>According to firefox-ios’s codebeat https://codebeat.co/projects/github-com-mozilla-firefox-ios , they have many problems in a class called “BrowserViewController.swift”:</p>
+
+<ul>
+  <li>Too many methods - 198 methods</li>
+  <li>Too many instance variables - 32 instance variables</li>
+  <li>Namespaces are too long - 2344 lines of code</li>
+  <li>Total complexity is too high - complexity = 1312</li>
+</ul>
+
+<p>And there is a code duplication in <em>“Client/Frontend/Browser/BrowserTrayAnimators.swift:205…217”</em> and <em>“Client/Frontend/Browser/BrowserTrayAnimators.swift:219…231”</em> .</p>
+
+<p><img src="codeBeat1.png" alt="" /></p>
+
+<ul>
+  <li><a href="https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#total-complexity">Total complexity</a> :</li>
+</ul>
+
+<p>Total complexity represents aggregate Assignment Branch Condition size of the entire namespace. High total complexity indicates a namespace that contains too much logic and should probably be broken down into smaller elements.</p>
+
+<ul>
+  <li><a href="https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#lines-of-code">Lines of code</a> :</li>
+</ul>
+
+<p>This represents the total length (code-wise) of a namespace. It is probably the most naive metric among the ones that we report on but can nevertheless provide substantial value. Ideally a single logical unit of code (class, module, etc.) should fit on one screen, without the need for scrolling. Longer namespaces are harder to navigate and understand, making your code less maintainable.</p>
+
+<ul>
+  <li><a href="https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions">Number of functions</a> :</li>
+</ul>
+
+<p>Number of functions is another high-level complexity metric. It is designed to encourage smart composition and modularity instead of refactoring code by multiplying private methods. We believe that a namespace with more than 15 (private and public) functions is a good candidate for breaking up into multiple independent modules each with its own set of data.</p>
+
+<ul>
+  <li><a href="https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions">Number of instance variables</a> :</li>
+</ul>
+
+<p>Number of instance variables is a metric designed to detect classes that carry too much state. Since every instance variable has an impact on the overall of status of the object the more instance variables you have the more possible states your object can have and this number grows exponentially as you keep adding instance variables.</p>
+
+<p>The Following image shows the errors and how they are presented in the “BrowserViewController.swift” class:</p>
+
+<p><img src="codeBeatBadClass.png" alt="" /></p>
+
+<h2 id="security">Security</h2>
+<p><img src="security.jpg" alt="" /></p>
+
+<p><strong>Firefox 4:</strong></p>
+
+<p>Firefox presented a Sync 1.0 functionality which creates a unique secret key that is used to encrypt and decrypt all your data. And the only way to get the data was to know that key.</p>
+
+<p><strong>Problems with Sync 1.0</strong></p>
+
+<p>If you loose your only device, you probably also lost the only copy of your secret key, and without that key, there is no way to recover your Sync data.</p>
+
+<p><strong>Firefox 29:</strong></p>
+
+<p>features a brand new Firefox Sync experience that is much easier to use while maintaining the high standard of safety, security, and openness that a user expects from Mozilla.</p>
+
+<p>The security goals remain the same: there is still a strong random secret key, and Mozilla’s servers cannot decrypt your data.
+  However, instead of using pairing, a “wrapped” version of your secret key is protected by your password and is stored alongside your Firefox Account.
+  This means that you can recover all your data, even if you lose all your devices at the same time.
+  Setting up a new device only requires typing your Firefox Account email and password into it.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Firefox is one of the many popular browsers for both iOS and any other platform. It has many challenges to overcome to make sure users use the Firefox browser and not its competitors.</p>
+
+<p>They work using the agile method to make sure all bugs and small missing features are added/fixed in a short amount of time. They keep their code organised so people can contribute with ease.</p>
+
+<p>Although Google has their own browser, they pay Firefox to keep Google as their default search engine.</p>
+
+<p>We have sent them a PR and added a missing feature as stated above in the ”Missing important feature” section. Recently their reviewer <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1228089#c7">replied</a> and said :</p>
+
+<p>“LGTM. Thanks :rawisa</p>
+
+<p>Sorry it took me so long to get around to it. It got lost in my review queue.”</p>
+
+<p>LGTM is short for: Looks good to me. This means that they will merge my PR soon ;)</p>
+
+<p>A summary presentation can be found <a href="Firefox IOSp.pptx">HERE</a></p>
+
+
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

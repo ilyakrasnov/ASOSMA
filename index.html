@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Azrieli Students On Software Modeling and Architecture -- ASOSMA 2016</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://jce-il.github.io/ASOSMA/css/main.css">
+    <link rel="icon" href="http://jce-il.github.io/ASOSMA/jce-favicon.ico" type="image/x-icon"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43050911-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+
+
+<body>
+  <div class="container">
+  <div class="sidebar">
+    <div class="cover">
+      <a href="http://jce-il.github.io/ASOSMA/index.html">
+        <img src="http://jce-il.github.io/ASOSMA/css/jce.jpeg">
+        <h3>Azrieli Students On Software Modeling and Architecture</h3>
+      </a>
+      <ol>
+      
+      
+        
+      
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/BeEF/">BeEF</a></li>
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/OptiKey/">OptiKey</a></li>
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/Video.js/">Video.js</a></li>
+        
+      
+        
+        <li><a href="http://jce-il.github.io/ASOSMA/firefox-ios/">firefox-ios</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+      </ol>
+    </div>
+  </div>
+  <div class="content">
+
+  <h1 id="asosma-2016asosmaio"><a href="http://jce-il.github.io/ASOSMA">ASOSMA 2016</a></h1>
+
+<p><strong><a href="https://github.com/robi-y">robi-y</a>.</strong><br />
+<strong>Software Engineering Department</strong>
+<strong>Azrieli - Jerusalem College of Engineering, Israel 2016</strong></p>
+
+<!--
+## Table of Contents
+
+* [Introduction](#Introduction)
+* OptiKey: [OptiKey](OptiKey/)
+  * [Readme](OptiKey/README.html)  
+  * [Introduction](OptiKey/Introduction.html)
+  * [ViewS and Prespectives](OptiKey/viewsandprespectives.html)
+  * [Metrics , Variability and Quality](https://github.com/adirel/ASOSMA/blob/master/OptiKey/MetricsVariabilityQuality.md)
+  * [OptiKey presentation and conclusions](https://github.com/adirel/ASOSMA/blob/master/OptiKey/ASOSNA - OptiKey.pptx)
+* BeEF: [BeEF] (BeEF/)
+  * [Readme](BeEF/Readme.html)
+* Video.JS: [Video.JS](VideoJs/):
+  * [Readme](VideoJs/README.html)
+* [Firefox-ios](firefox-ios):
+  * [Readme](firefox-ios/README.html)  
+-->
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Azrieli Students On Software Modeling and Architecture is a collection of modeling and architectural descriptions of open source software systems written by students from Azrieli - Jerusalem College of Engineering during a master level <a href="https://github.com/jce-il/sw-modeling-2016b">course</a> taking place in 2016.</p>
+
+<p>Teams of students could adopt a project of choice on GitHub. The projects selected had to be sufficiently complex and actively maintained.</p>
+
+<p>Inspired by Brown and Wilsons’ <a href="http://aosabook.org/">Architecture of Open Source Applications</a>, and the <a href="http://delftswa.github.io/">DESOSA</a> 2015 book, each description appears as a chapter, resulting in the present online book.</p>
+
+<h2 id="recurring-themes">Recurring Themes</h2>
+
+<p>(Taken from <a href="http://delftswa.github.io/">DESOSA</a>, we more or less followed these themes + security views):
+The chapters share several common themes, which are based on smaller assignments the students conducted as part of the course. These themes cover different architectural ‘theories’ as available on the web or in textbooks. The course used  Rozanski and Woods’ <a href="http://www.viewpoints-and-perspectives.info/">Software Systems Architecture</a>, and therefore several of their architectural <a href="http://www.viewpoints-and-perspectives.info/home/viewpoints/">viewpoints</a> and <a href="http://www.viewpoints-and-perspectives.info/home/perspectives/">perspectives</a> recur.</p>
+
+<p>The first theme is outward looking, focusing on the use of the system. Thus, many of the chapters contain an explicit <a href="http://www.mindtools.com/pages/article/newPPM_07.htm">stakeholder analysis</a>, as well as a description of the <a href="http://www.viewpoints-and-perspectives.info/home/viewpoints/context/">context</a> in which the systems operate. These were based on available online documentation, as well as on an analysis of open and recently closed issues for these systems.</p>
+
+<p>A second theme involves the <a href="http://www.viewpoints-and-perspectives.info/home/viewpoints/">development viewpoint</a>, covering modules, layers, components, and their inter-dependencies. Furthermore, it addresses integration and testing processes used for the system under analysis.</p>
+
+<p>A third recurring theme is <em>variability management</em>. Many of today’s software systems are highly configurable. In such systems, different features can be enabled or disabled, at compile time or at run time. Using techniques from the field of [product line engineering][fospl], several of the chapters provide feature-based variability models of the systems under study.</p>
+
+<p>A fourth theme is [metrics-based evaluation of software architectures][bouwers]. Using such metrics architects can discuss  (desired) quality attributes (performance, scaleability, maintainability, …) of a system quantitatively. Therefore various chapters discuss metrics and in some cases actual measurements tailored towards the systems under analysis.</p>
+
+<h2 id="first-hand-experience">First-Hand Experience</h2>
+
+<p>Last but not least, the chapters are also based on the student’s experience in actually contributing to the systems described. As part of the course over some pull requests to the projects under study were made, e.g, bug fixes:
+  <a href="https://github.com/mozilla/firefox-ios/pull/1889">firefox-ios 1889</a>, and contributed documentation.</p>
+
+<p>Through these contributions the students often interacted with lead developers and architects of the systems under study, gaining first-hand experience with the architectural trade-offs made in these systems.</p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>While we worked hard on the chapters to the best of our abilities, there will be plenty of omissions and inaccuracies.
+We value your feedback on any of the material in the book. For your feedback, you can:</p>
+
+<ul>
+  <li>Open an issue on our <a href="https://www.github.com/jce-il/ASOSMA">GitHub repository for this book</a>.</li>
+  <li>Offer an improvement to a chapter by posting a pull request on our <a href="https://www.github.com/jce-il/ASOSMA">GitHub repository</a>.</li>
+  <li><del>Contact @<a href="https://twitter.com/ASOSMA">ASOSMA</a> on Twitter.</del></li>
+  <li>Send an email to the lecturer (on <a href="https://github.com/jce-il/sw-modeling-2016b">course</a> syllabus).</li>
+</ul>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>We would like to thank:</p>
+
+<ul>
+  <li>Rebecca Wirfs-Brock for course content</li>
+  <li>AOSA and DESOSA for inspirtion</li>
+</ul>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ol>
+  <li>Arie van Deursen, Alex Nederlof, and Eric Bouwers. Teaching Software Architecture: with GitHub! <a href="http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/">avandeursen.com</a>, December 2013.</li>
+  <li>Nick Rozanski and Eoin Woods. <a href="http://www.viewpoints-and-perspectives.info/">Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives</a>. Addison-Wesley, 2012, 2nd edition.</li>
+  <li>Amy Brown and Greg Wilson (editors). <a href="http://aosabook.org/">The Architecture of Open Source Applications</a>. Volumes 1-2, 2012.</li>
+  <li>Rebecca Wirfs-Brock, <a href="http://wirfs-brock.com/developing_comm_arch.html">Developing and Communicating Software Architecture</a> Course.</li>
+</ol>
+
+<h2 id="copyright-and-license">Copyright and License</h2>
+
+<p>The copyright of the chapters is with the authors of the chapters. All chapters are licensed under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+Reuse of the material is permitted, provided adequate attribution (such as a link to the chapter on the <a href="http://jce-il.github.io/ASOSMA">book site</a>) is included.</p>
+
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="cc-by.png" alt="Creative Commons" /></a></p>
+
+
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
