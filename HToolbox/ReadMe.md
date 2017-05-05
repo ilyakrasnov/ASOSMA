@@ -1,6 +1,6 @@
 # Humanitarian Toolbox  #
 
-[Humanitarian Toolbox](http://www.htbox.org/)
+[Humanitarian Toolbox](http://www.htbox.org/)  
 [Humanitarian Toolbox Repo](https://github.com/htbox/)
 
 an open-source solution focused on increasing awareness, 
