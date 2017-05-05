@@ -9,5 +9,15 @@ And more…
 
 Humanitarian Toolbox has a goal of creating software and programs for relief organizations to have ready in times of need.
 What makes HTBox unique is the focus on sustainability through the use of Open Source software. Developers want to give to charity using their skills – building software. 
-There are other projects that build software solutions within a humanitarian organization during a crisis.  But, when the crisis is over, often the people involved in creating it move on or the software languishes on the shelf. Instead of deteriorating, HTBox takes on these projects so they can be maintained and ready for future usage.
-Based on [HTBox Vision]( http://www.htbox.org/about/our-vision)
+There are other projects that build software solutions within a humanitarian organization during a crisis.  But, when the crisis is over, often the people involved in creating it move on or the software languishes on the shelf. Instead of deteriorating, HTBox takes on these projects so they can be maintained and ready for future usage.  
+
+*Based on [HTBox Vision]( http://www.htbox.org/about/our-vision)*
+
+#	project fit for our book (why it was chosen?) #
+
+#	Describe the model of the development process (more in stage 2) #
+
+#	Review availaibe resources, especially concerning modeling and architecture (repos, papers, posts, issues/bugs) #
+
+#	Add a few images or diagrams to support the above #
+
