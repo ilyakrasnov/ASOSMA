@@ -1,3 +1,10 @@
+Start your introduction section, including:
+1. ~~General details about the project~~   (homepage, repository, development team, communications)
+2. project fit for our book (why it was chosen?).
+3. Describe the model of the development process (more in stage 2).
+4. Review availaibe resources, especially concerning modeling and architecture (repos, papers, posts, issues/bugs).
+5. Add a few images or diagrams to support the above.
+
 # General details about the project  #
 
 Humanitarian Toolbox (HTBox) is a charity supporting disaster relief organizations with open source software and services.  
