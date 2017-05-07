@@ -21,6 +21,17 @@ There are other projects that build software solutions within a humanitarian org
 *Based on [HTBox Vision]( http://www.htbox.org/about/our-vision)*
 
 #	project fit for our book (why it was chosen?) #
+The Constrains were:  
+ 1. Interesting to you - It was indirectly followed by one of the team members for several years (via podcast - [.net rocks](http://www.dotnetrocks.com) e.g. [episode 808](http://www.dotnetrocks.com/?show=808)  )
+ 2. Big & complex enough - This is rather hard to quantify - but [contributers](https://github.com/HTBox/allReady/graphs/contributors), [commits](https://github.com/HTBox/allReady/graphs/commit-activity) and [issues](https://github.com/HTBox/allReady/issues) implies it meets the requierment
+ 3. Actively developed on github ([>700 PRs in last year](https://github.com/HTBox/allReady/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aclosed%20%20created%3A2016-01-01..2017-12-12))
+ 4. [Has Unit tests](https://github.com/HTBox/allReady/tree/04456b9816ce918376e12d99c78bf434a444fed8/AllReadyApp/Web-App/AllReady.UnitTest). According to the docs [All projects have some unit tests.](http://htbox.github.io/building-the-project.html).
+ 5. Commonly used by disaster relief organizations [[1](http://solutionscenter.nethope.org/case_studies/view/humanitarian-toolbox-visual-studio-online-used-to-energize-and-optimize-cro)]  
+ 
+ On the down side, is does not seem to be missing documenation on first glance.  
+ 
+ One last plus - it has a [welcoming introduction for new contributers](https://github.com/HTBox/allReady#how-you-can-help) [[1](https://github.com/HTBox/allReady/wiki/Solution-architecture)]
+
 
 #	Describe the model of the development process (more in stage 2) #
 
