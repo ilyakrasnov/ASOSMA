@@ -10,6 +10,8 @@ Start your introduction section, including:
 
 # General details about the project  #
 
+![All Ready](https://github.com/HTBox/allReady/blob/04456b9816ce918376e12d99c78bf434a444fed8/docs/media/all-ready-project-banner.jpg)
+
 Humanitarian Toolbox (HTBox) is a charity supporting disaster relief organizations with open source software and services.  
 HTBox harnesses the skills of volunteer developers to contribute disaster relief aid through
 
