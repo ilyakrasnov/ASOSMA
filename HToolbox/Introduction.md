@@ -39,6 +39,7 @@ The Constrains were:
 #	Describe the model of the development process (more in stage 2) #
 
 #	Review availaibe resources, especially concerning modeling and architecture (repos, papers, posts, issues/bugs) #
+1. [an episode about HTBox](http://www.dotnetrocks.com/?show=808) is avialable ([.net rocks](http://www.dotnetrocks.com))
 
 #	Add a few images or diagrams to support the above #
 
