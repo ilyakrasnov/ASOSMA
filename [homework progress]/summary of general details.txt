@@ -1,0 +1,26 @@
+Intro & about
+=============
+Allready brings together community members, volunteers, humanitarian and community organizations to make our communities more resilient to the effects of disasters by making preparedness activities more visible and effective to the communities they serve and the volunteers who support them
+Team Intro at Visual Studio 2015 event: https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/In-the-Code-App-Overview-and-Planning
+MVP 1.0 release: May 15, 2017 (see: https://github.com/HTBox/allReady/milestone/21)
+Upcoming features:	https://github.com/HTBox/allReady/issues
+					https://github.com/HTBox/allReady/milestones
+
+Review the solution: https://github.com/HTBox/allReady/wiki/Solution-architecture
+
+
+Guides
+======
+Volunteer Sign-up page: http://www.htbox.org/mailinglist/subscribe?backingcontentid=13
+Device setup for developers: https://github.com/HTBox/allReady/wiki/Developer-Setup
+Software install: https://github.com/HTBox/allReady/blob/master/docs/prerequisite_install_guide/prerequisite_install_guide.md
+Work with Git: https://github.com/HTBox/allReady/blob/master/docs/git/gitprocess.md
+	
+
+Product
+=======
+Contribution and work on AllReady: 
+Repository (for: coder, tester, designer, or project manager): https://github.com/HTBox/allReady
+	Readme: https://github.com/HTBox/allready/blob/master/README.md
+					
+
