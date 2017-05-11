@@ -1,3 +1,6 @@
+[Reference to the book...](http://www.viewpoints-and-perspectives.info/vpandp/wp-content/themes/secondedition/doc/registered/VPandP_Reference.pdf)  
+
+
 Start your introduction section, including:
 1. ~~General details about the project~~   (homepage, repository, development team, communications)
 2. project fit for our book (why it was chosen?).
