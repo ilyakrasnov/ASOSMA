@@ -1,0 +1,50 @@
+## Solution architecture ##
+
+- [Web application] (#web-application)
+- [Cross-platform mobile app]
+
+
+### Web Application ###
+
+An ASP.NET Core web application provides the front-end web experience for volunteers accessing the allReady web site and the portal used by administrators. The site is powered by ASP.NET Core 1.0 using .NET Core 1.0. Here's the landing page for the web site:
+
+
+The web site relies on the following frameworks:
+
+* Bootstrap: responsive layouts on mobile devices
+* Font-awesome: scalable vector icons
+* Hammer: gesture support
+* jQuery: ubiquitous JavaScript library
+* Knockout: MVVM bindings
+
+
+### REST APIs ###
+The same ASP.NET Core project also exposes a set of Web APIs which are part of the MVC framework. These REST APIs are used by both the web site and the Cordova mobile app.
+
+### Data layer ###
+Data is stored in a database that is accessed by the ASP.NET application using Entity Framework Core 1.0.
+
+### Cloud services ###
+The allReady web project is designed to be hosted in Microsoft Azure. The following services are used by this application when running in Azure:
+
+* App Service Web Apps: hosts the web application.
+* SQL Database: storage of relational data.
+* Storage: storage of uploaded BLOB data.
+
+### Authentication ###
+Authentication of web site mobile app users leverages OAuth 2.0 with credentials from external authentication providers such as Facebook, Twitter, Google or Microsoft. Users can use their existing social media accounts to sign into the web site or mobile app. For more information, see Enabling authentication using external providers.
+
+### Cross-platform mobile app ###
+The mobile app project was added to the allReady solution as a Visual Studio Tools for Apache Cordova project.
+
+* The client app relies on the following frameworks:
+* AngularJS: extensible web app framework
+* * Apache Cordova: cross-platform device deployment, including these plugins:
+* * Whitelist
+* * InAppBrowser
+* BarcodeScanner
+* Ionic: enhancements for Cordova apps
+* Moment.js: working with date-time values
+* The app accesses the Web API exposed by the web app for data access.
+
+Users can sign-in with supported social providers such as their Facebook, Twitter, or Microsoft. You must configure each of these providers for the mobile app separately, as described in the next section.
