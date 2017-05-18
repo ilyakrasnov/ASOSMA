@@ -90,7 +90,7 @@ On top of that, HTBox holds occasionaly hackathons [[e.g. 2016]](https://www.mee
 
 The allReady application is implemented as a Visual Studio 2015 solution that contains two projects: an ASP.NET Core project that serves the web site and admin portal, and a cross-platform Cordova app project. The web application also exposes REST APIs used by the mobile app to access data.
 
-- [Web application] (#https://github.com/turner11/ASOSMA/blob/master/HToolbox/Introduction.md#web-application)
+- [Web application] (#web-application)
 - [Cross-platform mobile app]
 - [Get started with the allReady solution]
 - [Prerequisites]
@@ -98,9 +98,8 @@ The allReady application is implemented as a Visual Studio 2015 solution that co
 - [Configure the mobile app project]
 - [Run and test locally]
 - [Deploy to Azure]
-- [Web Application]()
 
-### Web Application ##
+### Web Application ###
 
 An ASP.NET Core web application provides the front-end web experience for volunteers accessing the allReady web site and the portal used by administrators. The site is powered by ASP.NET Core 1.0 using .NET Core 1.0. Here's the landing page for the web site:
 
