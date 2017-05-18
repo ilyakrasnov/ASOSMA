@@ -10,30 +10,6 @@ Start your introduction section, including:
 
 
 
-# General details about the project #
-
-## Intro & about ##
-
-[Main site](http://www.htbox.org/projects/allready)
-
-allready brings together community members, volunteers, humanitarian and community organizations to make our communities more resilient to the effects of disasters by making preparedness activities more visible and effective to the communities they serve and the volunteers who support them
-[Team Intro at Visual Studio 2015 event](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/In-the-Code-App-Overview-and-Planning)
-
-[MVP 1.0 release: May 15, 2017](https://github.com/HTBox/allReady/milestone/21)
-
-[Upcoming features: issues](https://github.com/HTBox/allReady/issues)
-
-[Upcoming features: milestones](https://github.com/HTBox/allReady/milestones)
-
-
-[Review the solution and database](https://github.com/HTBox/allReady/wiki/Solution-architecture)
-The allReady application is implemented as a Visual Studio 2015 solution that contains two projects:
--an ASP.NET Core project that serves the web site and admin portal
--a cross-platform Cordova app project
-The web application also exposes REST APIs used by the mobile app to access data.
-
-
-
 ## Guides ##
 You can get involved in the following areas: Individual / Technology / Government Agency / Private Sector / NGO and Non-Profit / Other
 
@@ -108,6 +84,14 @@ On top of that, HTBox holds occasionaly hackathons [[e.g. 2016]](https://www.mee
 
 #	Review available resources, especially concerning modeling and architecture (repos, papers, posts, issues/bugs) #
 1. [an episode about HTBox](http://www.dotnetrocks.com/?show=808) is available ([.net rocks](http://www.dotnetrocks.com))
+
+
+
+[Review the solution and database](https://github.com/HTBox/allReady/wiki/Solution-architecture)
+The allReady application is implemented as a Visual Studio 2015 solution that contains two projects:
+-an ASP.NET Core project that serves the web site and admin portal
+-a cross-platform Cordova app project
+The web application also exposes REST APIs used by the mobile app to access data.
 
 #	Add a few images or diagrams to support the above #
 
