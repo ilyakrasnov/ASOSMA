@@ -135,9 +135,9 @@ The mobile app project was added to the allReady solution as a Visual Studio Too
 
 * The client app relies on the following frameworks:
 * AngularJS: extensible web app framework
-* * Apache Cordova: cross-platform device deployment, including these plugins:
-* * Whitelist
-* * InAppBrowser
+  * Apache Cordova: cross-platform device deployment, including these plugins:
+  * Whitelist
+  * InAppBrowser
 * BarcodeScanner
 * Ionic: enhancements for Cordova apps
 * Moment.js: working with date-time values
