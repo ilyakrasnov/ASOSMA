@@ -1,3 +1,13 @@
+Code Structure:
+
+Database: Web API written in ASP.NET connects with JSON
+
+
+TODO - continue at
+https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/In-the-Code-App-Overview-and-Planning
+on 13:20
+
+
 Analyze and describe the main requirements/features of the product (stakeholder view).
 
 Stakeholders 
