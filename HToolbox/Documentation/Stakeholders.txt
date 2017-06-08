@@ -1,52 +1,39 @@
 Code Structure:
 
+
+
+link to allReady documents:
+https://github.com/PhillipKatz/allReady/tree/master/docs
+
+
+About the documentation:
+Currently, most of the introductions and documentations are left blank, with placeholders at every aspect except the installation guide, the git guide, and an unfinished event-starting guide.
+
+
 Database: Web API written in ASP.NET connects with JSON
 
-
-TODO - continue at
-https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/In-the-Code-App-Overview-and-Planning
-on 13:20
 
 
 Analyze and describe the main requirements/features of the product (stakeholder view).
 
 Stakeholders 
 ================
-•	Acquirers, who pay for the system.
 •	Assessors, who check for compliance.
-Director of Red Cross:
-	Jim McGowan
-•	Communicators, who create documents and training.
-•	Developers, who create the system.
-Volunteers with skills in programming, mainly in Web, SQL, .NET, and AngularJS
+Working in tandem with the allReady staff, relying on their results and handing requests and feedback.
+	Red Cross: (Director: @Jim McGowan)
 
-•	Maintainers, who evolve and fix the system.
+•	Communicators, who create documents and training.
+Most of the documents are yet to be written, with the exception of the "getting started" tutorials for volunteers, which were written by allReady's core-developers
+	Github contributors
+
+•	Developers, who create the system / Maintainers, who evolve and fix the system
+Core developers: Staff skilled in management, knowledgeable in programming; mainly in Web, SQL, .NET, and AngularJS
+	Web team (Rohit, Elizabeth, Matt, Dan, Daniel, Glen, Connie)
+	Mobile team: (Jimmy, Dmitry, Parashuram, Louis, Guillaume)
+Volunteering coders: open-source contributors who volunteer to work on the improvement of allReady
+
 •	Production Engineers, who are responsible for the deployment environment.
-Web team:
-	Rohit,
-	Elizabeth,
-	Matt,
-	Dan,
-	Daniel,
-	Glen,
-	Connie
-Mobile team:
-	Jimmy,
-	Dmitry,
-	Parashuram,
-	Louis,
-	Guillaume
-	
-•	Suppliers, who provide parts of the system.
-•	Support Staff, who help people to use the system.
-•	System Administrators, who keep it running.
-from :
-	https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/In-the-Code-App-Overview-and-Planning
-Manager:
-	Richard Campbell
-	
-	
-The program is lead and managed by these people:
+Core developers: Staff skilled in management, supervising and directing the development of allReady
 	Seth Juarez (technical)
 	Dmitry Lyalin (Senior Product Manager)
 	Brady Gaster (Program Manager)
@@ -56,15 +43,39 @@ The program is lead and managed by these people:
 	Zlatko Knezevic (Program Manager)
 	Jeff Fritz (Senior Program Manager)
 	
+
+•	Suppliers, who provide parts of the system.
+External companies which provide tools/ professional advisory/ software infrastructure
+Microsoft (contributing working platform, free server use and storage, and professional advisory and guidance) and various contributors
+
+•	Support Staff, who help people to use the system.
+Technical staff, who help participants with hardware installation
+Volunteers with various helpful skills during the emergency of unexpected disasters
+Various others. For example, people who help raise readiness in a town by assisting in the installation of smoke detectors wherever the residents can't do so on their own
+
+•	System Administrators, who keep it running.
+Main manager (Richard Campbell)
+Advisors from Microsoft (backlog /pool / task-sharing management , operation monitoring and various logistics)
+
 •	Testers, who verify that it works.
+Every programmer (core developer or contributor) is required to make his own test and make sure his addition / revision works well.
 
 •	Users, who have to use the system directly.
-Volunteers with various helpful skills during the emergency of unexpected disasters
+The organizations which physically deal with the disaster by aiding the locals, and the aided victims of the disasterous event.
+Examples for emergency services: Red Cross, Police, Fire-fighters...
+Examples for victims: people from towns caught in hurricane/earthquake/forest fires 
 
 
 
 
 
+Challenges for this project
+============================
+In all disaster scenarios, the system has to be at least as reliable as "pen and paper". Some disasters may render crucial infrastructures inoperable, thus suitable solutions have to be prepared ahead of time;
+for example, in case internet connecivity is weakened or lost at the disaster site, allReady's data transfer can be disrupted and resumed. If necessary, vehicles with wi-fi are brought to the site to allow a complete transfer.
+
+
+(e.g., a missing important feature, known bugs).
 
 
 
