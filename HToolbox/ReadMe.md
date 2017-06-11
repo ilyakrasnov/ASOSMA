@@ -13,4 +13,5 @@ efficiency and impact of preparedness campaigns as they are delivered by humanit
 - [Avi Turner](https://github.com/turner11)
 
 # Pages #
-[Introduction](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Introduction.md)
+[Introduction](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Introduction.md)  
+[Metrics, Variability and Quality Measures](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Metrics.md)
