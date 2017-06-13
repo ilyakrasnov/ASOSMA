@@ -13,11 +13,11 @@ efficiency and impact of prepareness campaigns as they are delivered by humanita
 - [Avi Turner](https://github.com/turner11)
 
 # Pages #
-[Introduction](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Introduction.md)  
-[Abstract](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Abstract.md)
-[Views and Prespectives](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Views and Prespectives.md)  
-[Metrics, Variability and Quality Measures](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Metrics.md)
-[Summary](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Summary.md)
+[Introduction](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Introduction.md)    
+[Abstract](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Abstract.md)  
+[Views and Prespectives](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Views%20and%20Prespectives.md)    
+[Metrics, Variability and Quality Measures](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Metrics.md)  
+[Summary](https://github.com/turner11/ASOSMA/blob/master/HToolbox/Pages/Summary.md)  
 
 
 
