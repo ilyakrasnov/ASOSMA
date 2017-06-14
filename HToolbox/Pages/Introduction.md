@@ -15,7 +15,7 @@ There are other projects that build software solutions within a humanitarian org
 
 *Based on [HTBox Vision]( http://www.htbox.org/about/our-vision)*
 
-#	project fit for our book (why it was chosen?) #
+#	Project fit for our book (why it was chosen?) #
 The Constrains were:  
  1. Interesting to you - It was indirectly followed by one of the team members for several years (via podcast - [.net rocks](http://www.dotnetrocks.com) e.g. [episode 808](http://www.dotnetrocks.com/?show=808)  )
  2. Big & complex enough - This is rather hard to quantify - but [contributers](https://github.com/HTBox/allReady/graphs/contributors), [commits](https://github.com/HTBox/allReady/graphs/commit-activity) and [issues](https://github.com/HTBox/allReady/issues) implies it meets the requirement
