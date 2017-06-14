@@ -1,4 +1,3 @@
-[Reference to the book...](http://www.viewpoints-and-perspectives.info/vpandp/wp-content/themes/secondedition/doc/registered/VPandP_Reference.pdf) 
 # General details about the project  #
 
 ![All Ready](https://github.com/HTBox/allReady/blob/04456b9816ce918376e12d99c78bf434a444fed8/docs/media/all-ready-project-banner.jpg)
