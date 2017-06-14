@@ -1,7 +1,7 @@
 # Abstract
 allReady is an open-source solution focused on increasing awareness, efficiency and impact of preparedness campaigns as they are delivered by humanitarian and disaster response organizations in local communities.
 
-allReady is a sub project of Humanitarian Toolbox. its continuing mission, to harnnest the skills and capabilities of developers in order to maximize the value they deliver to society, or in their words [[1]](http://www.htbox.org/about):
+allReady is a sub project of Humanitarian Toolbox. its continuing mission, to harnnest the skills and capabilities of developers in order to maximize the value they deliver to society, or in their own words [[1]](http://www.htbox.org/about):
 
 > A massive storm floods Manhattan - **and people need to find shelter quickly**.
 > 
@@ -15,7 +15,7 @@ That's the mission of the Humanitarian Toolbox. We connect people like you with 
 
 If you are a developer, software architect, database guru, designer, tester or software project manager, then sign up to be part of The Humanitarian Toolbox, a "volunteer army" of software experts willing to donate part of their expertise and time to help solve the technology issues that arise in enabling this open response community and help us develop the solutions required to support this community based response [[2]](http://blog.disasterexpert.org/2012/11/the-sandy-legacy.html)
 
-In this chapter we will overview some of aspects of the project including:
+In this chapter we will overview some aspects of the project including:
  1. Stakeholders analysis
  2. Challenges of the project
  3. Strategies of mainting an open source code base (including tests, CI, standartization etc...)
