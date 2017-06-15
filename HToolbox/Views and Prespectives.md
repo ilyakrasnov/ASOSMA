@@ -7,14 +7,6 @@ Currently, most of the introductions and documentations are left blank, with pla
 
 Database: Web API written in ASP.NET connects with JSON
 
-
-**allReady's data-flow design**
-Storage and flow of information
-![data-flow](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/data_flow.jpg)
-
-
-
-
 Stakeholders
 =============
 * **Assessors**, who check for compliance.
@@ -66,6 +58,25 @@ Examples for emergency services: Red Cross, Police, Fire-fighters...
 Examples for victims: people from towns caught in hurricane/earthquake/forest fires 
 
 
+**Context Diagram**
+All of the involved parties around allReady
+![context-diagram](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/Context%20Diagram.png)
+
+
+*allReady's Design*
+
+
+**allReady's data-flow design**
+Storage and flow of information
+![data-flow](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/data_flow.jpg)
+
+
+**Dependencies**
+![dependencies](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/graph.jpg)
+![slices](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/slices.jpg)
+
+**allReady's complexity score**
+![complexity-score](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/complexity.jpg)
 
 
 
