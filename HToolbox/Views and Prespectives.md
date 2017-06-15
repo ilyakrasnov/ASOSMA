@@ -8,7 +8,8 @@ Currently, most of the introductions and documentations are left blank, with pla
 Database: Web API written in ASP.NET connects with JSON
 
 
-allReady's data-flow design:
+**allReady's data-flow design**
+Storage and flow of information
 ![data-flow](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/data_flow.jpg)
 
 
@@ -16,7 +17,6 @@ allReady's data-flow design:
 
 Stakeholders
 =============
-
 * **Assessors**, who check for compliance.
 Working in tandem with the allReady staff, relying on their results and handing requests and feedback.
   * Red Cross: (Director: @Jim McGowan)
