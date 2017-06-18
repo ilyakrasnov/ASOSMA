@@ -9,7 +9,7 @@ Database: Web API written in ASP.NET connects with JSON
 
 
 allReady's data-flow design:
-![data-flow](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/data_flow.jpg)
+![data-flow](https://github.com/turner11/ASOSMA/blob/master/HToolbox/imgs/data_flow.jpg)
 
 
 

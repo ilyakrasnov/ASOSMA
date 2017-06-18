@@ -46,19 +46,9 @@ Based on the &#39;.gitignore&#39; file, it seems that at least some of allReady 
 
 Eventually, For CI, allReady admins decided to use [AppVeyor](https://www.appveyor.com/). Every pull request triggers a CI build (compile and run unit tests). This workflow gives more confidence that the code being merged to master isn&#39;t breaking anything. It seems that the main reason to go with AppVeyor [was the existing skillsets of contributors](https://github.com/HTBox/allReady/issues/94).
 
-
-
-# Describe how at least 2 qualities are handled, especially from the perspectives of changeability (evolution) and security (if the product is not a service define others, again use the book&#39;s template)
-
-NOTE: Added the table for evolution in a location where it makes sense. Should do the same for Availability and resilience. Probably should go under Philip and Eli&#39;s section
-
 ## Availability and Resilience
 
-_Explain the A&amp;R requirements._
 
-_Define the availability schedule(s) for the system._
-
-_Explain how the system will meet the requirements, referring to practical testing, modelling and design work that has been performed as part of applying this perspective._
 
 | _ **Requirement** _ | _ **How Met** _ |
 | --- | --- |
