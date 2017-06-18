@@ -1,43 +1,3 @@
-[Reference to the book...](http://www.viewpoints-and-perspectives.info/vpandp/wp-content/themes/secondedition/doc/registered/VPandP_Reference.pdf)  
-
-
-Start your introduction section, including:
-1. ~~General details about the project~~   (homepage, repository, development team, communications)
-2. Project fit for our book (why it was chosen?).
-3. Describe the model of the development process (more in stage 2).
-4. Review available resources, especially concerning modeling and architecture (repos, papers, posts, issues/bugs).
-5. Add a few images or diagrams to support the above.
-
-
-
-## Guides ##
-You can get involved in the following areas: Individual / Technology / Government Agency / Private Sector / NGO and Non-Profit / Other
-
-[Volunteer Sign-up page](http://www.htbox.org/mailinglist/subscribe?backingcontentid=13)
-
-[Setup guide for developers](https://github.com/HTBox/allReady/wiki/Developer-Setup)
-SDKs supporting .Net / Linux / Mac OS X
-
-[Software instal](https://github.com/HTBox/allReady/blob/master/docs/prerequisite_install_guide/prerequisite_install_guide.md)
-Includes:	General Install Steps
-			Getting the Source Code
-			Web Solution
-			Running Test Cases
-			Mobile Solution
-
-[Work with Git](https://github.com/HTBox/allReady/blob/master/docs/git/gitprocess.md)
-Assuming you've already installed Git, but don't know how to use it yet.
-
-
-## Product ##
-Contribution and work on allReady: 
-Repository for coder / tester / designer / project manager
-https://github.com/HTBox/allReady ([Readme](https://github.com/HTBox/allready/blob/master/README.md))
-
-
-
-
-
 # General details about the project  #
 
 ![All Ready](https://github.com/HTBox/allReady/blob/04456b9816ce918376e12d99c78bf434a444fed8/docs/media/all-ready-project-banner.jpg)
@@ -55,7 +15,7 @@ There are other projects that build software solutions within a humanitarian org
 
 *Based on [HTBox Vision]( http://www.htbox.org/about/our-vision)*
 
-#	project fit for our book (why it was chosen?) #
+#	Project fit for our book (why it was chosen?) #
 The Constrains were:  
  1. Interesting to you - It was indirectly followed by one of the team members for several years (via podcast - [.net rocks](http://www.dotnetrocks.com) e.g. [episode 808](http://www.dotnetrocks.com/?show=808)  )
  2. Big & complex enough - This is rather hard to quantify - but [contributers](https://github.com/HTBox/allReady/graphs/contributors), [commits](https://github.com/HTBox/allReady/graphs/commit-activity) and [issues](https://github.com/HTBox/allReady/issues) implies it meets the requirement
