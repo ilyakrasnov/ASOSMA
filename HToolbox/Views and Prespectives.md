@@ -60,24 +60,31 @@ Examples for victims: people from towns caught in hurricane/earthquake/forest fi
 
 **Context Diagram**
 All of the involved parties around allReady
-![context-diagram](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/Context%20Diagram.png)
+![context-diagram](https://github.com/turner11/ASOSMA/blob/master/HToolbox/imgs/Context%20Diagram.png)
+The majority of allReady's views are involved with either git/github or Microsoft.
 
 
-*allReady's Design*
+**allReady's Design**
 
 
-**allReady's data-flow design**
+***allReady's data-flow design***
 Storage and flow of information
-![data-flow](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/data_flow.jpg)
-
+![data-flow](https://github.com/turner11/ASOSMA/blob/master/HToolbox/imgs/data_flow.jpg)
+The database is shared between all supported platforms (mobile and web-browsers). The information is stored in Microsoft Philantropies' servers.
 
 **Dependencies**
-![dependencies](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/graph.jpg)
-![slices](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/slices.jpg)
+![dependencies](https://github.com/turner11/ASOSMA/blob/master/HToolbox/imgs/graph.png)
+![slices](https://github.com/turner11/ASOSMA/blob/master/HToolbox/imgs/slices.png)
+The code seems to be a bit tangled, though well-categorized.
 
 **allReady's complexity score**
-![complexity-score](https://github.com/turner11/ASOSMA/blob/master/HToolbox/%5Bhomework%20progress%5D/complexity.jpg)
-
+![complexity-score](https://github.com/turner11/ASOSMA/blob/master/HToolbox/imgs/complexity.png)
+The XS Configuration is a set of thresholds for "Fat" and "Tangles" at different levels of composition.
+Fat indicates "too much stuff" in one place and is measurable at every level of composition - Design, Namespace, Class and Method.
+Cyclomatic Complexity is used as a measure of Fat at the method level - the number of dependencies in the child dependency graph is used at the other levels.
+For the purposes of XS, tangles are only measured at the design level, i.e. cyclic dependencies between namespaces.
+Both Fat and Tangles are measured as the percentage by which the threshold is exceeded. This percentage is multiplied by the size of the item so that the Average XS can be read as a percentage of the code-base.
+allReady's app is sparse at its structure (reasonable for a project largely developed by volunteers), and is somewhat tangles.
 
 
 Challenges for this project
