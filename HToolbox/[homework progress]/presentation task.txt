@@ -1,0 +1,17 @@
+Part 1
+General details about the project (homepage, repository, development team, communications)
+project fit for our book (why it was chosen?).
+Describe the model of the development process (more in stage 2).
+Review availaibe resources, especially concerning modeling and architecture (repos, papers, posts, issues/bugs).
+Add a few images or diagrams to support the above.
+
+
+Part 2
+Fork the project's repository and add a documentation folder (consider developing it, e.g., according to this branching model, or the one required by the projcet's development process).
+add a link to your fork to the introduction section.
+Describe the given documentation and general source code structure.
+Analyze and describe the main requirements/features of the product (stakeholder view).
+Analyze and describe the major or important designs with UML diagrams and or other modeling means (e.g. sketeches (Calico), views, C4).
+Review the architectural style of the project using 2-3 of the most suitable Viewpoints and Prespectives from the course's book (Book-Reference). Use the book's templates. We are especially concened in this stage with the Development view. Describe how you used the book's checklists to ensure that the viewpoint are well developed.
+Describe a few challenges for this project (e.g., a missing important feature, known bugs).
+Try to validate your analysis with the project team and report about it.
